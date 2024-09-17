@@ -1,3 +1,5 @@
 #!/bin/bash
 
-cp -r /etc/greetd/ .
+DIR=~/.config/other
+
+sudo cp -r ${DIR}/greetd/ /etc/
