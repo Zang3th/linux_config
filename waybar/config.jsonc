@@ -9,13 +9,14 @@
     // The order of the modules
     "modules-left": ["hyprland/workspaces", "cpu", "temperature", "memory", "network#speed"],
     "modules-center": ["clock"],
-    "modules-right": [],
+    "modules-right": ["custom/lockscreen"],
 
     //***************************
     //*  Modules configuration  *
     //***************************
 
     "hyprland/workspaces": {
+        "tooltip": false,
         "format": "{icon}",
         "sort-by-number": true,
         "persistent-workspaces": {
@@ -27,12 +28,13 @@
 	},
 
     "cpu": {
-        "format": "  {usage}%",
         "tooltip": false,
+        "format": "  {usage}%",
         "interval": 1,
     },
 
     "temperature": {
+        "tooltip": false,
         "thermal-zone": 2,
         "format": "{icon} {temperatureC}°C",
         "format-icons": [""],
@@ -40,12 +42,13 @@
     },
 
     "memory": {
-        "format": "󰆼 {used:.1f} GiB",
         "tooltip": false,
+        "format": "󰆼 {used:.1f} GiB",
         "interval": 1,
     },
 
     "network#speed": {
+        "tooltip": false,
         "format": "<span line_height=\"0.75\" size=\"9pt\">  {bandwidthUpBytes}\n  {bandwidthDownBytes}</span>",
         "interval": 1,
     },
@@ -65,4 +68,10 @@
             },
         },
     },
+
+    "custom/lockscreen": {
+        "tooltip": false,
+        "format": "",
+        "on-click": "wlogout",
+    }
 }
