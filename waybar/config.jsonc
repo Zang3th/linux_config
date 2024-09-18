@@ -3,34 +3,23 @@
     "layer": "top",
     "position": "top",
     "spacing": 20,
-    "height": 40,
+    "height": 50,
     "margin": "10 10 0 10",
 
     // The order of the modules
-    "modules-left": ["hyprland/workspaces", "cpu", "temperature", "memory", "network#speed"],
+    "modules-left": ["cpu", "temperature", "memory", "network#speed"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/lockscreen"],
+    "modules-right": ["pulseaudio", "bluetooth", "network#interface", "custom/lockscreen"],
 
     //***************************
     //*  Modules configuration  *
     //***************************
 
-    "hyprland/workspaces": {
-        "tooltip": false,
-        "format": "{icon}",
-        "sort-by-number": true,
-        "persistent-workspaces": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-        },
-	},
-
     "cpu": {
         "tooltip": false,
         "format": "  {usage}%",
         "interval": 1,
+        "on-click": "kitty btop",
     },
 
     "temperature": {
@@ -55,7 +44,7 @@
 
     "clock": {
         "format": "  {:%H:%M} ",
-        "format-alt": "{:%A, %d. %B %Y}",
+        "format-alt": "󰔠  {:%A, %d. %B %Y}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
             "mode"          : "year",
@@ -67,6 +56,34 @@
                 "today":      "<span color='#fb4934'><b><u>{}</u></b></span>"
             },
         },
+    },
+
+    "pulseaudio": {
+        "scroll-step": 1.0,
+        "format": "   {volume}%  󰍬 {format_source} ",
+        "format-muted": " {volume}%  󰍬 {format_source} ",
+        "format-source": "{volume}% ",
+        "on-click": "pavucontrol",
+        "on-click-right": "pactl set-sink-mute 0 toggle",
+    },
+
+    "bluetooth": {
+        "format-on": " on",
+        "format-disabled": " off",
+        "format-connected": " {num_connections} connected",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "blueman-manager",
+    },
+
+    "network#interface": {
+        "format-wifi": "   {essid} ({signalStrength}%)",
+        "format-ethernet": "󰈀   {ifname}: {ipaddr}/{cidr}",
+        "format-linked": "󰈁   {ifname} (No IP)",
+        "format-disconnected": "Disconnected ",
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+        "on-click": "nm-connection-editor",
     },
 
     "custom/lockscreen": {

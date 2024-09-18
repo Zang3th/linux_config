@@ -1,0 +1,5 @@
+configuration {
+    show-icons: true;
+    font: "JetBrainsMono 16";
+}
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
