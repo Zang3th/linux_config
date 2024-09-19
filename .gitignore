@@ -1,6 +1,8 @@
 abrt/
 dconf/
 gtk-3.0/
+gtk-4.0/
+qt5ct/
 lxqt/
 nvim/
 pulse/
@@ -15,6 +17,10 @@ nwg-panel/
 Cryptomator/
 autostart/
 discord/
+Code Industry/
+libreoffice/
+qalculate/
+GIMP/
 user-dirs.dirs
 user-dirs.locale
 mimeapps.list
