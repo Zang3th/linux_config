@@ -9,7 +9,7 @@
     // The order of the modules
     "modules-left": ["cpu", "temperature", "memory", "disk", "network#speed"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "custom/printer", "bluetooth", "network#interface", "custom/lockscreen"],
+    "modules-right": ["pulseaudio", "bluetooth", "network#interface", "custom/weather", "custom/mail", "custom/dropbox", "custom/printer", "custom/lockscreen"],
 
     //***************************
     //*  Modules configuration  *
@@ -74,12 +74,6 @@
         "on-click-right": "pactl set-sink-mute 0 toggle",
     },
 
-    "custom/printer": {
-        "tooltip": false,
-        "format": "󰐪 ",
-        "on-click": "system-config-printer",
-    },
-
     "bluetooth": {
         "format-on": " on",
         "format-disabled": " off",
@@ -97,6 +91,30 @@
         "format-disconnected": "Disconnected ",
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
         "on-click": "nm-connection-editor",
+    },
+
+    "custom/weather": {
+        "tooltip": false,
+        "format": "󰖨 ",
+        "on-click": "com.gitlab.bitseater.meteo",
+    },
+
+    "custom/mail": {
+        "tooltip": false,
+        "format": " ",
+        "on-click": "thunderbird",
+    },
+
+    "custom/dropbox": {
+        "tooltip": false,
+        "format": " ",
+        "on-click": "kitty yazi ~/Dropbox/",
+    },
+
+    "custom/printer": {
+        "tooltip": false,
+        "format": "󰐪 ",
+        "on-click": "system-config-printer",
     },
 
     "custom/lockscreen": {
