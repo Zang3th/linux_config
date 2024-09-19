@@ -1,0 +1,12 @@
+/home/zang3th/Downloads/yazi/target/release/deps/libuzers-a3f23198e035336f.rmeta: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/base.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/cache.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/mock.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/switch.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/traits.rs
+
+/home/zang3th/Downloads/yazi/target/release/deps/libuzers-a3f23198e035336f.rlib: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/base.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/cache.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/mock.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/switch.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/traits.rs
+
+/home/zang3th/Downloads/yazi/target/release/deps/uzers-a3f23198e035336f.d: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/base.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/cache.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/mock.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/switch.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/traits.rs
+
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/lib.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/base.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/cache.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/mock.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/switch.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uzers-0.12.1/src/traits.rs:

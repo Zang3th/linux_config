@@ -1,0 +1,12 @@
+/home/zang3th/Downloads/yazi/target/release/deps/libinotify-ee1cf7f6699cc47f.rmeta: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/events.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/fd_guard.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/inotify.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/util.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/watches.rs
+
+/home/zang3th/Downloads/yazi/target/release/deps/libinotify-ee1cf7f6699cc47f.rlib: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/events.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/fd_guard.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/inotify.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/util.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/watches.rs
+
+/home/zang3th/Downloads/yazi/target/release/deps/inotify-ee1cf7f6699cc47f.d: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/events.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/fd_guard.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/inotify.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/util.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/watches.rs
+
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/lib.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/events.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/fd_guard.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/inotify.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/util.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/watches.rs:

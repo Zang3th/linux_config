@@ -1,0 +1,1 @@
+{"rustc":14575918801645749953,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[2514923968864754279,"build_script_build",false,11887051315924768576]],"local":[{"RerunIfChanged":{"output":"release/build/vergen-gitcl-820d656ed11fbf09/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

@@ -1,0 +1,10 @@
+/home/zang3th/Downloads/yazi/target/release/deps/libnotify_types_fork-1d9bb1dd15d4f75a.rmeta: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/debouncer_full.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/debouncer_mini.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/event.rs
+
+/home/zang3th/Downloads/yazi/target/release/deps/libnotify_types_fork-1d9bb1dd15d4f75a.rlib: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/debouncer_full.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/debouncer_mini.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/event.rs
+
+/home/zang3th/Downloads/yazi/target/release/deps/notify_types_fork-1d9bb1dd15d4f75a.d: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/debouncer_full.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/debouncer_mini.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/event.rs
+
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/lib.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/debouncer_full.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/debouncer_mini.rs:
+/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-types-fork-1.0.0/src/event.rs:
