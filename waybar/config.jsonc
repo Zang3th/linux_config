@@ -101,7 +101,7 @@
 
     "custom/mail": {
         "tooltip": false,
-        "format": " ",
+        "format": " ",
         "on-click": "thunderbird",
     },
 

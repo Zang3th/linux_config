@@ -1,2 +1,11 @@
 [manager]
 show_hidden = true
+ratio = [2, 3, 3]
+
+[open]
+rules = [
+    { name = "*.flac", use = "open"},
+    { name = "*.mp3", use = "open"},
+    { name = "*.mp4", use = "open"},
+    { name = "*.pdf", use = "open"},
+]

@@ -21,7 +21,15 @@ Code Industry/
 libreoffice/
 qalculate/
 GIMP/
+blender/
+JetBrains/
+jgit/
+PVS-Studio/
+texstudio/
+vlc/
+VirtualBox/
 user-dirs.dirs
 user-dirs.locale
 mimeapps.list
 pavucontrol.ini
+QtProject.conf
