@@ -2,14 +2,14 @@
     "output": ["DP-3"],
     "layer": "top",
     "position": "top",
-    "spacing": 20,
-    "height": 50,
+    "spacing": 10,
+    "height": 60,
     "margin": "10 10 0 10",
 
     // The order of the modules
     "modules-left": ["cpu", "temperature", "memory", "disk", "network#speed"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "bluetooth", "network#interface", "custom/weather", "custom/mail", "custom/dropbox", "custom/printer", "custom/lockscreen"],
+    "modules-right": ["pulseaudio", "bluetooth", "network#interface", "custom/weather", "custom/nightmode", "custom/mail", "custom/dropbox", "custom/printer", "custom/lockscreen"],
 
     //***************************
     //*  Modules configuration  *
@@ -17,7 +17,7 @@
 
     "cpu": {
         "tooltip": false,
-        "format": "  {usage}%",
+        "format": "   {usage}%",
         "interval": 1,
         "on-click": "kitty btop",
     },
@@ -25,18 +25,18 @@
     "temperature": {
         "tooltip": false,
         "thermal-zone": 1,
-        "format": "{icon} {temperatureC}°C",
-        "format-icons": [""],
+        "format": "  {temperatureC}°C",
         "interval": 1,
     },
 
     "memory": {
         "tooltip": false,
-        "format": "󰆼 {used:.1f} GiB",
+        "format": "󰆼  {used:.1f} GiB",
         "interval": 1,
     },
 
     "disk": {
+        "tooltip": false,
         "interval": 30,
         "format": "  {percentage_free}% ({free})",
         "path": "/",
@@ -50,8 +50,8 @@
     },
 
     "clock": {
-        "format": "  {:%H:%M} ",
-        "format-alt": "󰔠  {:%A, %d. %B %Y}",
+        "format": "   {:%H:%M} ",
+        "format-alt": "󰔠   {:%A, %d. %B %Y}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
             "mode"          : "year",
@@ -67,29 +67,28 @@
 
     "pulseaudio": {
         "scroll-step": 1.0,
-        "format": "   {volume}%  󰍬 {format_source} ",
-        "format-muted": " {volume}%  󰍬 {format_source} ",
+        "format": "    {volume}%   󰍬 {format_source} ",
+        "format-muted": "    {volume}%   󰍬 {format_source} ",
         "format-source": "{volume}% ",
         "on-click": "pavucontrol",
         "on-click-right": "pactl set-sink-mute 0 toggle",
     },
 
     "bluetooth": {
-        "format-on": " on",
-        "format-disabled": " off",
-        "format-connected": " {num_connections} connected",
-        "tooltip-format": "{controller_alias}\t{controller_address}",
-        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "format-on": "  on",
+        "format-disabled": "  off",
+        "format-connected": "  {num_connections} connected",
+        "tooltip-format": "{controller_alias} ({controller_address})",
+        "tooltip-format-connected": "{controller_alias} ({controller_address} | {device_enumerate})",
+        "tooltip-format-enumerate-connected": "{device_alias} ({device_address})",
         "on-click": "blueman-manager",
     },
 
     "network#interface": {
-        "format-wifi": "   {essid} ({signalStrength}%)",
-        "format-ethernet": "󰈀   {ifname}: {ipaddr}/{cidr}",
-        "format-linked": "󰈁   {ifname} (No IP)",
+        "format-wifi": "    {signalStrength}%",
+        "format-ethernet": "󰈀    {ifname}",
         "format-disconnected": "Disconnected ",
-        "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+        "tooltip-format": "{essid} ({ipaddr}/{cidr})",
         "on-click": "nm-connection-editor",
     },
 
@@ -97,6 +96,12 @@
         "tooltip": false,
         "format": "󰖨 ",
         "on-click": "com.gitlab.bitseater.meteo",
+    },
+
+    "custom/nightmode": {
+        "tooltip": false,
+        "format": " ",
+        "on-click": "~/.config/waybar/scripts/bluelight.sh"
     },
 
     "custom/mail": {

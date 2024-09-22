@@ -22,49 +22,74 @@
 @define-color braqua    #8ec07c;
 @define-color orange    #d65d0e;
 @define-color brorange  #fe8019;
-@define-color tooltipbg rgba(40, 40, 40, 0.8);
 
 * {
-    font-family: "JetBrains Mono";
-    font-size: 18px;
-    font-weight: bold;
+    font-family: "JetBrains Mono Medium";
+    font-size: 16px;
 }
 
 window#waybar {
     color: @fg;
     background-color: @bg;
-    border-style: solid;
-    border-color: @brgray;
-    border-width: 2px;
+    /* background:linear-gradient(180deg, rgba(40, 40, 40, 0.8), rgba(146, 131, 116, 0.5)); */
     border-radius: 5px;
-    opacity: 0.95;
+    opacity: 0.85;
+}
+
+tooltip * {
+    color: @fg;
+    background-color: @bg;
+    border: none;
+}
+
+#cpu,
+#temperature,
+#memory,
+#disk,
+#network.speed,
+#pulseaudio,
+#bluetooth,
+#network.interface {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    color: @fg;
+    background: @bg1;
+    border-radius: 10px;
 }
 
 #cpu {
-    padding: 0 0 0 20px;
+    margin: 10px 0px 10px 10px;
 }
 
-#cpu#icon {
-    font-size: 25px;
+#clock,
+#custom-lockscreen {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 20px 10px 15px;
+    color: @fg;
+    background: @bg1;
+    border-style: solid;
+    border-color: @fg;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#pulseaudio.muted {
+    background-color: @fg;
+    color: @bg1;
 }
 
 #custom-weather {
-    padding: 0 0 0 20px;
-    border-style: solid;
-    border-color: @brgray;
-    border-width: 0px 0px 0px 2px;
+    margin: 0px 0px 0px 20px;
+}
+
+#custom-printer {
+    margin: 0px 20px 0px 0px;
 }
 
 #custom-lockscreen {
-    padding: 0 28px 0 20px;
-    border-style: solid;
-    border-color: @brgray;
-    border-width: 0px 0px 0px 2px;
-}
-
-@keyframes blink {
-    to {
-        background-color: @bg;
-        color: @fg;
-    }
+    margin: 10px 10px 10px 0px;
 }
