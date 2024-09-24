@@ -8,4 +8,8 @@ rules = [
     { name = "*.mp3", use = "open"},
     { name = "*.mp4", use = "open"},
     { name = "*.pdf", use = "open"},
+    { name = "*.png", use = "open"},
+    { name = "*.jpeg", use = "open"},
+    { name = "*.jpg", use = "open"},
+    { name = "*.xlsx", use = "open"},
 ]

@@ -1,9 +1,0 @@
-/home/zang3th/Downloads/ReGreet/target/release/deps/libgtk4_macros-edb808ca61a58f2e.so: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/attribute_parser.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/composite_template_derive.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/template_callbacks_attribute.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/util.rs
-
-/home/zang3th/Downloads/ReGreet/target/release/deps/gtk4_macros-edb808ca61a58f2e.d: /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/lib.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/attribute_parser.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/composite_template_derive.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/template_callbacks_attribute.rs /home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/util.rs
-
-/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/lib.rs:
-/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/attribute_parser.rs:
-/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/composite_template_derive.rs:
-/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/template_callbacks_attribute.rs:
-/home/zang3th/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.5.6/src/util.rs:

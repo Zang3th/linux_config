@@ -1,7 +1,0 @@
-cargo:rustc-env=VERGEN_GIT_COMMIT_DATE=2024-09-17
-cargo:rustc-env=VERGEN_GIT_SHA=dfe2884
-cargo:rerun-if-changed=/home/zang3th/Downloads/yazi/.git/HEAD
-cargo:rerun-if-changed=/home/zang3th/Downloads/yazi/.git/refs/heads/main
-cargo:rerun-if-changed=build.rs
-cargo:rerun-if-env-changed=VERGEN_IDEMPOTENT
-cargo:rerun-if-env-changed=SOURCE_DATE_EPOCH
