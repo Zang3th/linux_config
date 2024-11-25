@@ -35,3 +35,5 @@ user-dirs.locale
 pavucontrol.ini
 QtProject.conf
 okularrc
+kde*
+knfsshare

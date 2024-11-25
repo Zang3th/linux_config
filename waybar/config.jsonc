@@ -101,7 +101,8 @@
     "custom/nightmode": {
         "tooltip": false,
         "format": " ",
-        "on-click": "~/.config/waybar/scripts/bluelight.sh"
+        "on-click": "hyprsunset -t 3000",
+        "on-click-right": "hyprsunset -t 6000",
     },
 
     "custom/mail": {
