@@ -37,3 +37,6 @@ QtProject.conf
 okularrc
 kde*
 knfsshare
+mimeinfo.cache
+go/
+ghidra/
