@@ -7,13 +7,38 @@
     "margin": "10 10 0 10",
 
     // The order of the modules
-    "modules-left": ["cpu", "temperature", "memory", "disk", "network#speed"],
+    "modules-left": [
+        "hyprland/workspaces",
+        "cpu", "temperature",
+        "memory",
+        "disk",
+        "network#speed",
+    ],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "bluetooth", "network#interface", "custom/weather", "custom/nightmode", "custom/mail", "custom/dropbox", "custom/printer", "custom/lockscreen"],
+    "modules-right": [
+        "pulseaudio",
+        "bluetooth",
+        "network#interface",
+        "custom/weather",
+        "custom/nightmode",
+        "custom/mail",
+        "custom/dropbox",
+        "custom/printer",
+        "custom/lockscreen"
+    ],
 
     //***************************
     //*  Modules configuration  *
     //***************************
+
+    "hyprland/workspaces" : {
+        "disable-scroll": true,
+        "active-only": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "on-click": "activate",
+        "format": "{name}",
+    },
 
     "cpu": {
         "tooltip": false,
