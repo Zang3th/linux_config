@@ -2,14 +2,40 @@
 show_hidden = true
 ratio = [2, 3, 3]
 
+[opener]
+open = [
+    { run = 'xdg-open "$@"', desc = "Open" },
+]
+edit = [
+    { run = 'nvim "$@"', block = true, desc = "Edit" },
+]
+
+
 [open]
 rules = [
-    { name = "*.flac", use = "open"},
-    { name = "*.mp3", use = "open"},
-    { name = "*.mp4", use = "open"},
-    { name = "*.pdf", use = "open"},
-    { name = "*.png", use = "open"},
+    # Text
+    { name = "*.html", use = "edit"},
+    { name = "*.txt",  use = "edit"},
+    { name = "*.md",   use = "edit"},
+
+    # Web
+    { name = "*.http",  use = "open"},
+    { name = "*.https", use = "open"},
+
+    # Media
+    { name = "*.jpg",  use = "open"},
     { name = "*.jpeg", use = "open"},
-    { name = "*.jpg", use = "open"},
+    { name = "*.png",  use = "open"},
+    { name = "*.mp3",  use = "open"},
+    { name = "*.mp4",  use = "open"},
+    { name = "*.flac", use = "open"},
+
+    # Docs
+    { name = "*.pdf",  use = "open"},
     { name = "*.xlsx", use = "open"},
+    { name = "*.ods",  use = "open"},
+    { name = "*.docx", use = "open"},
+    { name = "*.odt",  use = "open"},
+
+    # Other
 ]
