@@ -23,4 +23,4 @@
 
 ## Appearance
 
-![Hypr_Screenshot_001](res/Hypr_Screenshot_001.png)
+![Hypr_Screenshot_001](res/Hypr_Screenshot_002.png)
