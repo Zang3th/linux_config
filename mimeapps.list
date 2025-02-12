@@ -28,3 +28,4 @@ application/msword=libreoffice-writer.desktop
 
 # Other
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+inode/directory=yazi.desktop
