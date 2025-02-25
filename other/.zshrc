@@ -14,6 +14,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # Custom exports
 export EDITOR='nvim'
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$PATH:/usr/local/libexec"
+export LIBVIRT_DEFAULT_URI="qemu:///system"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -120,3 +122,6 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 eval "$(atuin init zsh)"
+
+# Created by `pipx` on 2024-09-22 09:52:48
+export PATH="$PATH:/home/zang3th/.local/bin"
