@@ -14,6 +14,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Custom exports
 export EDITOR='nvim'
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:/usr/local/libexec"
 export LIBVIRT_DEFAULT_URI="qemu:///system"
 
