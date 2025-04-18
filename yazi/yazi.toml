@@ -7,7 +7,7 @@ open = [
     { run = 'xdg-open "$@"', desc = "Open" },
 ]
 edit = [
-    { run = 'nvim "$@"', block = true, desc = "Edit" },
+    { run = '/home/zang3th/.local/bin/nvim "$@"', block = true, desc = "Edit" },
 ]
 
 
