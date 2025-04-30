@@ -24,80 +24,64 @@
 @define-color brorange  #fe8019;
 
 * {
-    font-family: "JetBrains Mono Medium";
+    font-family: "JetBrains Mono";
     font-size: 16px;
-    padding: 0;
-    margin: -1;
-    opacity: 1.00;
+    font-weight: bold;
+    color: @fg;
+    border-radius: 10px;
 }
 
 window#waybar {
-    color: @fg;
-    border-radius: 5px;
-
-    /* Workaround for now, because setting the opacity value causes weird
-     * flickering since Hyprland >= v0.47 */
-    background:linear-gradient(90deg, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.8));
-
-    /* background-color: @bg; */
+    background: rgba(0, 0, 0, 0);
 }
 
 tooltip * {
-    color: @fg;
-    background-color: @bg;
-    border: none;
+    background-color: @bg1;
 }
 
+#workspaces,
 #cpu,
 #temperature,
 #memory,
 #disk,
-#network.speed,
+#clock,
 #pulseaudio,
 #bluetooth,
-#network.interface {
-    margin: 10px 0px 10px 0px;
-    padding: 10px 10px 10px 10px;
-    color: @fg;
+#network.interface,
+#custom-nightmode,
+#custom-dropbox,
+#custom-printer,
+#custom-lockscreen{
     background: @bg1;
-    border-radius: 10px;
+    opacity: 0.80;
+    border-style: solid;
+    border-color: @fg;
+    border-width: 2px;
+    padding: 0px 12px 0px 12px;
+    margin: 0px 2px 0px 2px;
 }
 
 #workspaces {
-    margin: 10px 0px 10px 10px;
-    background: @bg1;
-    border-radius: 10px;
     font-weight: bold;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 2px 0px 0px;
 }
 
 #workspaces button {
-    color: @bg2;
-    margin: 10px 5px 10px 5px;
-    padding: 0px 5px 0px 5px;
+    border-width: 2px;
+    border-radius: 30px;
+}
+
+#workspaces button:hover {
+    border-color: @fg;
 }
 
 #workspaces button.active {
-    color: @fg;
-    border-style: solid;
-    border-color: @fg;
-    border-width: 2px;
-    border-radius: 10px;
-}
-
-#clock,
-#custom-lockscreen {
-    margin: 10px 0px 10px 0px;
-    padding: 10px 20px 10px 15px;
-    color: @fg;
-    background: @bg1;
-    border-style: solid;
-    border-color: @fg;
-    border-width: 2px;
-    border-radius: 10px;
+    border-color: @orange;
 }
 
 #clock {
-    font-weight: bold;
+    margin: 0px 0px 0px 0px;
 }
 
 #pulseaudio.muted {
@@ -105,14 +89,11 @@ tooltip * {
     color: @bg1;
 }
 
-#custom-weather {
-    margin: 0px 0px 0px 20px;
-}
-
-#custom-printer {
-    margin: 0px 20px 0px 0px;
-}
-
 #custom-lockscreen {
-    margin: 10px 10px 10px 0px;
+    margin: 0px 0px 0px 2px;
+    padding: 0px 15px 0px 10px;
+    font-size: 18px;
+    color: @bg1;
+    background: @fg;
+    border-radius: 30px;
 }
