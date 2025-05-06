@@ -26,6 +26,7 @@ rules = [
     { name = "*.jpg",  use = "open"},
     { name = "*.jpeg", use = "open"},
     { name = "*.png",  use = "open"},
+    { name = "*.svg",  use = "open"},
     { name = "*.mp3",  use = "open"},
     { name = "*.mp4",  use = "open"},
     { name = "*.flac", use = "open"},

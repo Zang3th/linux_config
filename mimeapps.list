@@ -15,6 +15,7 @@ x-scheme-handler/unknown=brave-browser.desktop
 image/jpeg=brave-browser.desktop
 image/png=brave-browser.desktop
 image/jpg=brave-browser.desktop
+image/svg+xml=brave-browser.desktop
 video/mp4=QMPlay2.desktop
 audio/mpeg=QMPlay2.desktop
 audio/x-flac=QMPlay2.desktop
